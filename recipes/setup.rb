@@ -13,6 +13,9 @@ package 'ntp'
 
 template '/etc/motd' do
  source 'motd.erb'
+ variables(
+  :name => "Terminator"
+ )
  action :create
 end
 
