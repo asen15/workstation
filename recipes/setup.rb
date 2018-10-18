@@ -19,7 +19,6 @@ template '/etc/motd' do
  action :create
 end
 
-
 #file '/etc/motd' do
 #  content "This server is my property
 #  HOSTNAME: #{node['hostname']} 
